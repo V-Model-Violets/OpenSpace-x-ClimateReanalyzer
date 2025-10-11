@@ -19,10 +19,10 @@ The type in the header must be one of the following:
 
 |Name|Description|
 |-|-|
-|fix|Changes that fix a bug.|
 |feat|Changes that introduce functionality.|
-|refactor|Stylistic changes to the code (won't change functionality)|
+|fix|Changes that fix a bug.|
 |test|Changes that add new tests or update tests.|
+|refactor|Stylistic changes to the code (won't change functionality)|
 |ci|Update Github Action workflows.|
 |docs|Updates or additions to any documentation.|
 |chore|Changes to repository content that do not affect compilation, such as `CODEOWNERS` changes.|

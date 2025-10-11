@@ -57,7 +57,7 @@ jobs:
         shell: bash
         run: |
           FAILED=0
-          VALID_TYPES="feat|fix|chore|refactor|test"
+          VALID_TYPES="feat|fix|chore|refactor|test|docs|ci"
 
           from='${{ steps.range.outputs.from }}'
           to='${{ steps.range.outputs.to }}'

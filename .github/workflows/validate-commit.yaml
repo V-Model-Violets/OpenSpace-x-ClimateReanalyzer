@@ -2,7 +2,6 @@ name: Validate Commit Message
 on:
   push: 
 
-    
 jobs:
   check-commit-types:
     runs-on: ubuntu-latest

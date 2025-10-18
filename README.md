@@ -10,6 +10,8 @@ Navigate to the project folder (for example: `cd ~/repos/OpenSpace-x-ClimateRean
 
 ### Dev Containers
 When prompted, select "Reopen in Container" 
+
 <img width="448" height="123" alt="Screenshot 2025-10-15 at 4 09 07 PM" src="https://github.com/user-attachments/assets/532ac0c1-5575-44b1-8102-d32cf334e022" />
+
 
 If you don't get this message, press `Command/Control + Shift + P`, then press `Dev Containers: Reopen in Container`

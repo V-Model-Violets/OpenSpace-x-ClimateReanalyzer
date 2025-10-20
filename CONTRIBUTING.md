@@ -27,10 +27,10 @@ The type in the header must be one of the following:
 |docs|Updates or additions to any documentation.|
 |chore|Changes to repository content that do not affect compilation, such as `CODEOWNERS` changes.|
 
+### Atomic Commits
+Commits must be atomic. Here is more: [Atomic Commits](https://en.wikipedia.org/wiki/Atomic_commit). TLDR: "This commit does one thing and one thing only".
 
 ## Issues
 
 ### Closing Issues
 When closing an issue please leave a comment stating what was done. If no comment is left the issue will be reopened.
-### Atomic Commits
-Commits must be atomic. Here is more: [Atomic Commits](https://en.wikipedia.org/wiki/Atomic_commit). TLDR: "This commit does one thing and one thing only".

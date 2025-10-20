@@ -17,7 +17,3 @@ When prompted, select "Reopen in Container"
 If you don't get this message, press `Command/Control + Shift + P`, then press `Dev Containers: Reopen in Container`
 
 
-## Issues
-
-### Closing Issues
-When closing an issue please leave a comment stating what was done. If no comment is left the issue will be reopened.

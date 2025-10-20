@@ -13,10 +13,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - name: Check for closing comment
+      - name: Check for closing comments
         env:
           GITHUB_TOKEN: ${{ github.token }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
           CLOSER: ${{ github.event.sender.login }}
           CLOSED_AT: ${{ github.event.issue.closed_at }}
-        run: node .github/scripts/check-closing-comment.js
+        run: node .github/scripts/check-closing-comments.js

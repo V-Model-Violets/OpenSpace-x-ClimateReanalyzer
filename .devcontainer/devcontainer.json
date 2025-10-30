@@ -2,6 +2,11 @@
 	"name": "Ubuntu",
 	"image": "mcr.microsoft.com/devcontainers/base:noble",
 	"features": {
-		"ghcr.io/devcontainers/features/git-lfs:1": {}
-	}
+		"ghcr.io/devcontainers/features/git-lfs:1": {},
+		"ghcr.io/devcontainers-extra/features/apt-packages:1": {
+			"packages": "gdal-bin,libgdal-dev,build-essential,cmake,apache2,apache2-dev,libapr1-dev,libaprutil1-dev,libjpeg-dev,libpng-dev,zlib1g-dev,libcurl4-openssl-dev,sqlite3,libsqlite3-dev,git"
+		}
+	},
+	"postCreateCommand": "bash setup-ahtse.sh && bash genconf.sh"
+
 }

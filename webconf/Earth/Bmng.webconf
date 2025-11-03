@@ -1,0 +1,6 @@
+RegExp .*/tile/.*
+Size 4978 6322 1 3
+PageSize 512 512 1 3
+DataFile /workspaces/OpenSpace-x-ClimateReanalyzer/data/Earth/Bmng/yosemite_jpeg.pjg
+IndexFile /workspaces/OpenSpace-x-ClimateReanalyzer/data/Earth/Bmng/yosemite_jpeg.idx
+SkippedLevels 0

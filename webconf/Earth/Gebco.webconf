@@ -1,0 +1,6 @@
+RegExp .*/tile/.*
+Size 43200 21600 1 1
+PageSize 512 512 1 1
+DataFile /workspaces/OpenSpace-x-ClimateReanalyzer/data/Earth/Gebco/yosemite.ppg
+IndexFile /workspaces/OpenSpace-x-ClimateReanalyzer/data/Earth/Gebco/yosemite.idx
+SkippedLevels 1

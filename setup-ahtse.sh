@@ -337,21 +337,23 @@ echo "[8/8] Creating OpenSpace site..."
 sudo mkdir -p /var/www/openspace
 sudo chown -R www-data:www-data /var/www/openspace
 
-sudo tee /etc/apache2/sites-available/001-openspace.conf >/dev/null <<'EOF'
-<VirtualHost *:80>
-    ServerName openspace.maps
-    DocumentRoot /var/www/openspace
-    <Directory /var/www/openspace>
-        Options +Indexes
-        Require all granted
-    </Directory>
-</VirtualHost>
+sudo tee /etc/apache2/sites-available/100-ahtse.conf >/dev/null <<'EOF'
+# Expose your data root at /tiles/
+Alias /tiles/ "/workspaces/OpenSpace-x-ClimateReanalyzer/data/"
+
+<Directory "/workspaces/OpenSpace-x-ClimateReanalyzer/data/">
+    Options -Indexes -FollowSymLinks
+    AllowOverride None
+    Require all granted
+</Directory>
+
+# Pull in the blocks your genconf created (MRF_RegExp + MRF_ConfigurationFile)
+Include "/workspaces/OpenSpace-x-ClimateReanalyzer/ahtse.conf"
 EOF
 
-sudo ln -sf /etc/apache2/sites-available/001-openspace.conf /etc/apache2/sites-enabled/001-openspace.conf
-sudo apachectl configtest
-sudo apachectl restart
+sudo ln -sf /etc/apache2/sites-available/100-ahtse.conf /etc/apache2/sites-enabled/100-ahtse.conf
 
+sudo apachectl configtest && sudo service apache2 restart
 echo "=== AHTSE server install complete! ==="
 
 echo

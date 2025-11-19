@@ -1,5 +1,5 @@
 # Contributing to `OpenSpace-x-ClimateReanalyzer-Server`
-Contributors to `OpenSpace-x-ClimateReanalyzer` are expected to follow these guidelines:
+Contributors to `OpenSpace-x-ClimateReanalyzer-Server` are expected to follow these guidelines:
 
 ## Pull Requests
 All changes to the repo require a Pull Request and approval upon merging into the base branch. The intent of a Pull Request is to allow for changes to be reviewed before being merged into the base branch

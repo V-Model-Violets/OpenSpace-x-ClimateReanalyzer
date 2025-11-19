@@ -1,12 +1,12 @@
-# OpenSpace-x-ClimateReanalyzer
+# OpenSpace-x-ClimateReanalyzer-Server
 
-## How to develop in OpenSpace-x-ClimateReanalyzer
+## How to develop in OpenSpace-x-ClimateReanalyzer-Server
 
 ### Clone the Repository
-To clone the repo, open a terminal window (in a directory of your choice) and run `git clone git@github.com:V-Model-Violets/OpenSpace-x-ClimateReanalyzer.git`
+To clone the repo, open a terminal window (in a directory of your choice) and run `git clone git@github.com:V-Model-Violets/OpenSpace-x-ClimateReanalyzer-Server.git`
 
 ### Opening the Repository
-Navigate to the project folder (for example: `cd ~/repos/OpenSpace-x-ClimateReanalyzer`) and run `code .`
+Navigate to the project folder (for example: `cd ~/repos/OpenSpace-x-ClimateReanalyzer-Server`) and run `code .`
 
 ### Dev Containers
 When prompted, select "Reopen in Container" 

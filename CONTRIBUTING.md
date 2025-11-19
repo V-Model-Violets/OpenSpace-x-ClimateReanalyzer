@@ -1,4 +1,4 @@
-# Contributing to `OpenSpace-x-ClimateReanalyzer`
+# Contributing to `OpenSpace-x-ClimateReanalyzer-Server`
 Contributors to `OpenSpace-x-ClimateReanalyzer` are expected to follow these guidelines:
 
 ## Pull Requests
